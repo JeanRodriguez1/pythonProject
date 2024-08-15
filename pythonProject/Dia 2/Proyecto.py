@@ -6,7 +6,7 @@ totalred = round(total,2)
 print (f"ok {nombre}.  este mes ganaste {totalred}")
 
 
-#/ Solucion del video
+#/ Solucion del videoo
 
 #/ nombre1 = input("Por favor, dime tu nombre: ")
 #/ ventas1 = int(input("Diga sus ventas totales del mes: "))
