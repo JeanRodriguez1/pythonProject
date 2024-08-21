@@ -17,7 +17,7 @@ print(eliminando)
 
 lista = ['g','o','b','m','c']
 lista.sort() #reordena pero no devuelve nada. y no podemos asignar a una variable.
-lista.reverse() # en orden pero al reves
+lista.reverse() # en orden pero al reves.
 print(lista)
 
 
