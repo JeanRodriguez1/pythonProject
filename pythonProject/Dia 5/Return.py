@@ -22,7 +22,7 @@ dolares = 1200
 def usd_a_eur(dolares):
     return dolares * 0.90
 
-# Práctica Return 3
+# Práctica Return 3.
 palabra = "Python"
 
 def invertir_palabra(palabra):
