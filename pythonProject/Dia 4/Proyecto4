@@ -9,7 +9,7 @@ numero_secreto = randint(1,100)
 nombre = input("Dime tu nombre: ")
 print(f"Bueno {nombre}, he pensado un número entre 1 y 100\nTienes 8 intentos para adivinar")
 
-while intentos < 8:
+while intentos < 8: # es while y no for por que se repite tantas veces como sea necesario.
     estimado = int(input("Cuál es el número?: "))
     intentos += 1
 
