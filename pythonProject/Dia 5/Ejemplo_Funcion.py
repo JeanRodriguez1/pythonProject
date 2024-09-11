@@ -23,4 +23,3 @@ def cafe_mas_caro(lista_precios): # fUNCION PARA ENCONTRAR EL CAFE MAS CARO
 cafe, precio = cafe_mas_caro(precios_cafe)
 
 print(f'El cafe mas caro es {cafe} cuyo precio es {precio}')
-
