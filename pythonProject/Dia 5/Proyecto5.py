@@ -10,7 +10,7 @@ juego_terminado = False
 
 def elegir_palbra(lista_palabras):
     palabra_elegida = choice(lista_palabras)
-    letras_unicas = len(set(palabra_elegida))
+    letras_unicas = len(set(palabra_elegida)) # LEN - EL LARGO DEL SET
 
     return palabra_elegida, letras_unicas
 
@@ -19,7 +19,7 @@ def pedir_letra():
     letra_elegida = ''
     es_valida = False
     abecedario = 'abcdefghijklmnñopqrstuvwxyz'
-
+    # COMPROBAR QUE LA LETRA ES VALIDA
     while not es_valida:
         letra_elegida = input("Elige una letra: ")
         if letra_elegida in abecedario and len(letra_elegida) == 1:
@@ -40,16 +40,18 @@ def mostrar_nuevo_tablero(palabra_elegida):
         else:
             lista_oculta.append('-')
 
-    print(' '.join(lista_oculta))
+    print(' '.join(lista_oculta)) # join permite unir todos los elementos de lista oculta con espacio libre.
 
 
 def chequear_letra(letra_elegida, palabra_oculta, vidas, coincidencias):
 
     fin = False
 
-    if letra_elegida in palabra_oculta:
+    if letra_elegida in palabra_oculta and letra_elegida not in letras_correctas:
         letras_correctas.append(letra_elegida)
         coincidencias += 1
+    elif letra_elegida in palabra_oculta and letra_elegida in letras_correctas :
+        print("Ya has encontrado esta letra. Intenta algo diferente")
     else:
         letras_incorrectas.append(letra_elegida)
         vidas -= 1
