@@ -23,7 +23,30 @@ for l in mi_archivo:
     print("Aqui dice: " + l)
 
 
-
-
-
 mi_archivo.close()
+
+"""
+ # Práctica Abrir y Manipular Archivos 1
+archivo = open("texto.txt")
+print(archivo.read())
+
+# Práctica Abrir y Manipular Archivos 2
+mi_archivo = open("texto.txt")
+print(mi_archivo.readline())
+
+
+# Práctica Abrir y Manipular Archivos 3
+
+archivo = open("texto.txt")
+lineas = archivo.readlines()
+print(lineas[1])
+ 
+# Alternativa de solución admitida:
+# lineas = archivo.readline()
+# lineas = archivo.readline()
+# print(lineas)
+
+
+
+"""
+
