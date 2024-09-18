@@ -26,5 +26,4 @@ archivo = carpeta / 'otro_archivo.txt'
 
 mi_archivo = open(archivo)
 print(mi_archivo.read())
-
 """
