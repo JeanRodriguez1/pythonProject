@@ -1,6 +1,6 @@
-import os
-from pathlib import Path
-from os import system
+import os # navegar entre carpetas
+from pathlib import Path # construir rutas
+from os import system # limpiar pantalla
 
 mi_ruta = Path(Path.home(), "Recetas")
 
@@ -23,7 +23,7 @@ def inicio():
     print(f"Total recetas: {contar_recetas(mi_ruta)}")
 
     eleccion_menu = 'x'
-    while not eleccion_menu.isnumeric() or int(eleccion_menu) not in range(1,7):
+    while not eleccion_menu.isnumeric() or int(eleccion_menu) not in range(1,7): # .isnumeric checar.
         print("Elige una opcion:")
         print('''
         [1] - Leer receta
