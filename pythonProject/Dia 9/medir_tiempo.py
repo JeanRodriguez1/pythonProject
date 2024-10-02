@@ -6,11 +6,7 @@ para saber cual es mas practico.
 # lista de numeros de 1 a lo que pase el usuario
 
 import timeit
-
-
-
-
-
+from os import uname_result
 
 declaracion = '''
 prueba_for(10)
@@ -44,10 +40,6 @@ def prueba_while (numero):
 
 duracion2 = timeit.timeit(declaracion2, mi_setup2, number= 1000000)
 print(duracion2)
-
-
-
-
 
 
 
