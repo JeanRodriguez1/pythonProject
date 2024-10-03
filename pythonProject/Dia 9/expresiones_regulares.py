@@ -37,7 +37,6 @@ print(chequear)
 """
 # Práctica Módulo RE 1
 
-import re
  
 import re
  
