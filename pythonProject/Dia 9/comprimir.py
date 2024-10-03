@@ -25,6 +25,3 @@ archivo_destino = 'Todo_Comprimido' # nombre
 shutil.make_archive(archivo_destino,'zip',carpeta_origen)
 
 # .unpack_archive es para descomprimir con shutil
-
-
-
