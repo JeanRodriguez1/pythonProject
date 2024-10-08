@@ -1,3 +1,8 @@
+"""
+Asegura de contar con permisos para hacer Web Scraping.
+Cada codigo de Web Scraping es diferente dependiendo del sitio.
+
+"""
 import bs4 # beautifulsoup4
 import lxml
 import requests
