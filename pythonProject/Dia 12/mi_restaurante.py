@@ -62,3 +62,30 @@ panel_recibo.pack()
 # panel botones
 panel_botones = Frame(panel_derecha, bd=1, relief=FLAT, bg='burlywood')
 panel_botones.pack()
+
+# lista de productos
+lista_comidas = ['pollo', 'coredero', 'salmon', 'merluza', 'kebab', 'pizza1', 'pizza2', 'pizza3']
+lista_bebidas = ['agua', 'soda', 'jugo', 'cola', 'vino1', 'vino2', 'cerveza1', 'cerveza2']
+lista_postres = ['helado', 'fruta', 'brownies', 'flan', 'mousse', 'pastel1', 'pastel2', 'pastel3']
+
+# generar items comida
+variables_comida = []
+cuadros_comida = []
+texto_comida = []
+contador = 0
+for comida in lista_comidas:
+    # crear checkbutton
+    variables_comida.append('')
+    variables_comida[contador] = IntVar()
+    comida = Checkbutton(panel_comidas,
+                         text=comida.title(),
+                         font=('Dosis', 19, 'bold',),
+                         onvalue=1,
+                         offvalue=0,
+                         variable=variables_comida[contador],
+                         command=revisar_check)
+
+    comida.grid(row=contador,
+                column=0,
+                sticky=W)
+
