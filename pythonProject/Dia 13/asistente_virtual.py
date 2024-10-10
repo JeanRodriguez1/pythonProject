@@ -62,4 +62,12 @@ def trasformar_audio_en_texto():
             # devolver error
             return "sigo esperando"
 
-trasformar_audio_en_texto()
+# funcion para que el asistente pueda ser escuchado
+def hablar(mensaje):
+
+    # encender el motor de pyttsx3
+    engine = pyttsx3.init()
+
+    # pronunciar mensaje
+    engine.say(mensaje)
+    engine.runAndWait()
