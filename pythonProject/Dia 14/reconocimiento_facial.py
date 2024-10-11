@@ -7,3 +7,8 @@ Biblioteca - face-recognition
 Biblioteca - numpy
 Biblioteca - opencv-python
 """
+from cv2 import cv2
+import face_recognition as fr
+import os
+import numpy
+from datetime import datetime
