@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c48b1720-73e0-43fe-8e89-6a1100ec0d79" name="Changes" comment="Programa una aplicacion web de tareas pendientes">
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/.idea/proyecto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/templates/base/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/templates/base/principal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/templates/base/registro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/templates/base/tarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/templates/base/tarea_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/templates/base/tarea_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/templates/base/tarea_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/base/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/proyecto/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/proyecto/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/proyecto/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/proyecto/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/proyecto/proyecto/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonWeb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/templates/base/tarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/templates/base/tarea_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/base/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/proyecto/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/proyecto/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/proyecto/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/proyecto/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyecto/proyecto/wsgi.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JeanRodriguez1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JeanRodriguez1/pythonProject.git&quot;,
+    &quot;accountId&quot;: &quot;d5a7b5c1-4357-42ae-afab-bec5a2198997&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2nZlAODRvWSvCDl6xb1TbQSb0vD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c48b1720-73e0-43fe-8e89-6a1100ec0d79" name="Changes" comment="" />
+      <created>1729188334882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729188334882</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Dia 16 Desarrollo web">
+      <option name="closed" value="true" />
+      <created>1729188397466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729188397466</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Instalar Django - superusuario y migrate">
+      <option name="closed" value="true" />
+      <created>1729188995923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729188995923</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Django">
+      <option name="closed" value="true" />
+      <created>1729189210454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729189210454</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Conectar app y urls">
+      <option name="closed" value="true" />
+      <created>1729189776830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729189776830</updated>
+    </task>
+    <task id="LOCAL-00005" summary="crear tabla de tareas y base de datos">
+      <option name="closed" value="true" />
+      <created>1729190549922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729190549922</updated>
+    </task>
+    <task id="LOCAL-00006" summary="configurar la vista">
+      <option name="closed" value="true" />
+      <created>1729191769471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729191769471</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Configurar la vista de detalle por id">
+      <option name="closed" value="true" />
+      <created>1729192487144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729192487144</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Programa una aplicacion web de tareas pendientes">
+      <option name="closed" value="true" />
+      <created>1729546696197</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729546696197</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dia 16 Desarrollo web" />
+    <MESSAGE value="Instalar Django - superusuario y migrate" />
+    <MESSAGE value="Django" />
+    <MESSAGE value="Conectar app y urls" />
+    <MESSAGE value="crear tabla de tareas y base de datos" />
+    <MESSAGE value="configurar la vista" />
+    <MESSAGE value="Configurar la vista de detalle por id" />
+    <MESSAGE value="Programa una aplicacion web de tareas pendientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programa una aplicacion web de tareas pendientes" />
+  </component>
+</project>
